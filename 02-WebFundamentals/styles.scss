@@ -16,6 +16,23 @@ $webpage-black: #444041;
     max-width: 70%;
 }
 
+.login {
+    background-color: $webpage-white;
+    font-size: 20px;
+    font-family: $font-body;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.darkButton {
+    background-color: $primary-color;
+    color: $webpage-white;
+    font-size: 30px;
+    font-family: $font-body;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 footer {
     background-color: $tertiary-color;
     color: $primary-color;
