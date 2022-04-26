@@ -1,10 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import url("@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&family=Varela+Round&display=swap");
+$font-body: "Roboto" , sans-serif;
+$font-diplay: "Varela Round" , sans-serif;
+$font-logo: "Bangers" , cursive;
+
 
 $primary-color: #3A4269;
 $secondary-color: #48B8F1;
 $tertiary-color: #FFFCDD;
 $webpage-white: #FEFDF8;
 $webpage-black: #444041;
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 70%;
+}
+
+footer {
+    background-color: $tertiary-color;
+    color: $primary-color;
+    p {
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-family: $font-body;
+    }
+}

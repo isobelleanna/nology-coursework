@@ -1,4 +1,17 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&family=Varela+Round&display=swap");
 * {
   margin: 0;
   padding: 0;
+  max-width: 70%;
+}
+
+footer {
+  background-color: #FFFCDD;
+  color: #3A4269;
+}
+footer p {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
 }
