@@ -16,6 +16,12 @@ console.log(convertDaysToAge(3650));
 const getLargestNumber = (num1, num2, num3) => {
     const largest = Math.max(num1,num2,num3);
     return largest;
-   
 }
 console.log(getLargestNumber(1, 2, 3));
+
+const getLastName = (array1) => {
+    const lengthOfArray = array1.length - 1;
+    const finalName = array1[lengthOfArray];
+    return finalName;
+}
+console.log(getLastName(["Charlie", "Rob", "Andy"]));
