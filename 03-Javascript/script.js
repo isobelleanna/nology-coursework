@@ -7,3 +7,9 @@ const isNumberPositive = (number) => {
 }
 console.log(isNumberPositive(5));
 
+const convertDaysToAge = (days) => {
+    let age = days / 365;
+    return Math.floor(age);
+}
+console.log(convertDaysToAge(3650));
+
