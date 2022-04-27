@@ -13,3 +13,9 @@ const convertDaysToAge = (days) => {
 }
 console.log(convertDaysToAge(3650));
 
+const getLargestNumber = (num1, num2, num3) => {
+    const largest = Math.max(num1,num2,num3);
+    return largest;
+   
+}
+console.log(getLargestNumber(1, 2, 3));
