@@ -25,3 +25,19 @@ const getLastName = (array1) => {
     return finalName;
 }
 console.log(getLastName(["Charlie", "Rob", "Andy"]));
+
+const allNumbersPositive = (numberArray) => {
+    let count = 0;
+    for (let i = 0; i < numberArray.length; i++){
+        if (numberArray[i] < 0) {
+            count += 1;
+        }
+    }
+    if (count > 0) {
+        return false;
+    }else {
+        return true;
+    }
+
+}
+console.log(allNumbersPositive([-5, 7, 14]))
