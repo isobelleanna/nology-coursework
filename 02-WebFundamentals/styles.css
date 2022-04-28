@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 70%;
+  max-width: 75%;
 }
 
 #logo {
@@ -38,6 +38,7 @@ h6 {
 li {
   font-family: "Varela Round", sans-serif;
   color: #3A4269;
+  list-style: none;
 }
 
 p {

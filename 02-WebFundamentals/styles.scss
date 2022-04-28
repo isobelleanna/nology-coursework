@@ -13,7 +13,7 @@ $webpage-black: #444041;
 * {
     margin: 0;
     padding: 0;
-    max-width: 70%;
+    max-width: 75%;
 }
 
 #logo {
@@ -49,6 +49,7 @@ h6 {
 li {
     font-family: $font-diplay;
     color: $primary-color;
+    list-style: none;
 }
 
 p {
