@@ -16,6 +16,36 @@ $webpage-black: #444041;
     max-width: 70%;
 }
 
+#logo {
+    font-family: $font-logo;
+    font-size: 60px;
+}
+h2, h3, h4, h5, h6 {
+    font-family: $font-diplay;
+    text-align: center;
+}
+
+h2 {
+    color: $secondary-color;
+}
+
+h3 {
+    color: $primary-color;
+}
+
+h4 {
+    color: $secondary-color;
+}
+
+h5 {
+    color: $primary-color;
+    
+}
+
+h6 {
+    color: $primary-color;
+}
+
 .login {
     background-color: $webpage-white;
     font-size: 20px;

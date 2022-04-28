@@ -5,6 +5,36 @@
   max-width: 70%;
 }
 
+#logo {
+  font-family: "Bangers", cursive;
+  font-size: 60px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #48B8F1;
+}
+
+h3 {
+  color: #3A4269;
+}
+
+h4 {
+  color: #48B8F1;
+}
+
+h5 {
+  color: #3A4269;
+}
+
+h6 {
+  color: #3A4269;
+}
+
 .login {
   background-color: #FEFDF8;
   font-size: 20px;
