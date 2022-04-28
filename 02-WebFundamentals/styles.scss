@@ -46,6 +46,17 @@ h6 {
     color: $primary-color;
 }
 
+li {
+    font-family: $font-diplay;
+    color: $primary-color;
+}
+
+p {
+    font-family: $font-diplay;
+    color: $webpage-black;
+    font-weight: bold;
+}
+
 .login {
     background-color: $webpage-white;
     font-size: 20px;
@@ -71,5 +82,6 @@ footer {
         padding: 20px;
         font-size: 30px;
         font-family: $font-body;
+        font-weight: 500;
     }
 }

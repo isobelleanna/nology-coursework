@@ -35,6 +35,17 @@ h6 {
   color: #3A4269;
 }
 
+li {
+  font-family: "Varela Round", sans-serif;
+  color: #3A4269;
+}
+
+p {
+  font-family: "Varela Round", sans-serif;
+  color: #444041;
+  font-weight: bold;
+}
+
 .login {
   background-color: #FEFDF8;
   font-size: 20px;
@@ -61,4 +72,5 @@ footer p {
   padding: 20px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
