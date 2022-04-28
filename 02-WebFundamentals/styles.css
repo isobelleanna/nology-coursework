@@ -5,6 +5,11 @@
   max-width: 75%;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 #logo {
   font-family: "Bangers", cursive;
   font-size: 60px;
@@ -12,6 +17,10 @@
 
 h2, h3, h4, h5, h6 {
   font-family: "Varela Round", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   text-align: center;
 }
 
@@ -47,12 +56,22 @@ p {
   font-weight: bold;
 }
 
+.mockUp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .login {
   background-color: #FEFDF8;
+  color: #3A4269;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
+  border: solid #3A4269;
+  border-width: 2px;
 }
 
 .darkButton {
@@ -60,8 +79,12 @@ p {
   color: #FEFDF8;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
-  padding: 20px;
   border-radius: 10px;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 footer {
@@ -74,4 +97,8 @@ footer p {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

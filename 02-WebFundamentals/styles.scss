@@ -15,13 +15,22 @@ $webpage-black: #444041;
     padding: 0;
     max-width: 75%;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
 #logo {
     font-family: $font-logo;
     font-size: 60px;
 }
+
 h2, h3, h4, h5, h6 {
     font-family: $font-diplay;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     text-align: center;
 }
 
@@ -58,12 +67,23 @@ p {
     font-weight: bold;
 }
 
+.mockUp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .login {
     background-color: $webpage-white;
+    color: $primary-color;
     font-size: 20px;
     font-family: $font-body;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
+    border: solid $primary-color;
+    border-width: 2px;
+
 }
 
 .darkButton {
@@ -71,8 +91,12 @@ p {
     color: $webpage-white;
     font-size: 30px;
     font-family: $font-body;
-    padding: 20px;
     border-radius: 10px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 footer {
@@ -84,5 +108,9 @@ footer {
         font-size: 30px;
         font-family: $font-body;
         font-weight: 500;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 }
