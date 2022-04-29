@@ -1,7 +1,7 @@
 @import url("@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&family=Varela+Round&display=swap");
 * {
   margin: 0px;
-  padding: 10px;
+  padding: 0 10px;
   max-width: 75%;
 }
 
@@ -11,6 +11,11 @@ header {
 }
 
 #logo {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+#businessName {
   font-family: "Bangers", cursive;
   font-size: 75px;
   padding: 0px;
@@ -70,7 +75,6 @@ p {
   color: #3A4269;
   font-size: 35px;
   font-family: "Roboto", sans-serif;
-  padding: 10px;
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 10px;

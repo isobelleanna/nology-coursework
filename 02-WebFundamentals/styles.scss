@@ -12,7 +12,7 @@ $webpage-black: #444041;
 
 * {
     margin: 0px;
-    padding: 10px;
+    padding: 0 10px;
     max-width: 75%;
 }
 header {
@@ -21,6 +21,11 @@ header {
 }
 
 #logo {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+#businessName {
     font-family: $font-logo;
     font-size: 75px;
     padding: 0px;
@@ -81,7 +86,6 @@ p {
     color: $primary-color;
     font-size: 35px;
     font-family: $font-body;
-    padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 10px;
