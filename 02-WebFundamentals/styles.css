@@ -5,6 +5,10 @@
   max-width: 75%;
 }
 
+#time {
+  margin: 20px 0px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -19,7 +23,7 @@ header {
   font-family: "Bangers", cursive;
   font-size: 75px;
   padding: 0px;
-  margin: 0px;
+  margin-right: 60px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -27,12 +31,15 @@ h2, h3, h4, h5, h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
 h2 {
   color: #48B8F1;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 50px;
 }
 
 h3 {
@@ -93,6 +100,10 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#signUp {
+  margin-left: 120px;
 }
 
 footer {
