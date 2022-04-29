@@ -1,7 +1,7 @@
 @import url("@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto&family=Varela+Round&display=swap");
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 10px;
   max-width: 75%;
 }
 
@@ -12,7 +12,9 @@ header {
 
 #logo {
   font-family: "Bangers", cursive;
-  font-size: 60px;
+  font-size: 75px;
+  padding: 0px;
+  margin: 0px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -66,9 +68,11 @@ p {
 .login {
   background-color: #FEFDF8;
   color: #3A4269;
-  font-size: 20px;
+  font-size: 35px;
   font-family: "Roboto", sans-serif;
-  padding: 30px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-radius: 10px;
   border: solid #3A4269;
   border-width: 2px;
