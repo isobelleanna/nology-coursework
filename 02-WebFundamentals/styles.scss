@@ -54,19 +54,32 @@ h2 {
 
 h3 {
     color: $primary-color;
+    padding-top: 65px;
+    padding-bottom: 30px;
+    font-size: 30px;
 }
 
 h4 {
     color: $secondary-color;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 26px;
 }
 
 h5 {
     color: $primary-color;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-size: 26px;
+    font-weight: 200;
     
 }
 
 h6 {
     color: $primary-color;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 26px;
 }
 
 li {
@@ -114,8 +127,9 @@ p {
     width: 50%;
 }
 
+
 #signUp {
-    margin-left: 120px;
+    margin-left: 110px;
 }
 
 footer {
