@@ -71,16 +71,18 @@ h6 {
   font-size: 26px;
 }
 
-li {
+.bulletpoints {
   font-family: "Varela Round", sans-serif;
   color: #3A4269;
   list-style: none;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-p {
-  font-family: "Varela Round", sans-serif;
-  color: #444041;
-  font-weight: bold;
+img {
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .mockUp {
@@ -115,8 +117,28 @@ p {
   width: 50%;
 }
 
+#row1 {
+  display: flex;
+}
+
+#row2 {
+  display: flex;
+}
+
+#row3 {
+  display: flex;
+}
+
+#row4 {
+  display: flex;
+}
+
 #signUp {
   margin-left: 110px;
+}
+
+.buttonSignUp {
+  padding: 40px;
 }
 
 footer {
